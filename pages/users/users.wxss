@@ -1,0 +1,52 @@
+/* pages/users/users.wxss */
+page{
+  background-color: rgb(240, 255, 252);
+}
+.user_info_box{
+  height: 45vh;
+  overflow: hidden;
+  background-color: var(--themecolor);
+}
+.user_image{
+  position: relative;
+}
+.user_background{
+  height: 45vh;
+  filter: blur(10rpx);
+}
+.user_info{
+  position: absolute;
+  left: 50%;
+  transform:translate(-50%);
+  top:20%;
+  text-align: center;
+}
+.user_icon{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_name{
+  color: aliceblue;
+  margin-top: 40rpx;
+  font-size:40rpx;
+}
+
+.user_content{
+  position: relative;
+}
+.user_main{
+  position: absolute;
+  width: 90%;
+  left:50%;
+  height: 250px;
+  transform:translateX(-50%);
+  top: -40rpx;
+  background-color: rgb(255, 255, 255);
+}
+.user_func
+{
+  width: 98%;
+  height: 30%;
+  border: 3px solid 	#AFEEEE;
+}

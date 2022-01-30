@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/function/function",
+    "pages/users/users"
+  ],
+  "tabBar":{
+    "color": "black",
+    "selectedColor": "#C71585",
+    "backgroundColor": "#E1FFFF",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath":"images/tabBar/index.png",
+      "selectedIconPath":"images/tabBar/indexChoose.png"
+    },{
+      "pagePath":"pages/function/function",
+      "text":"功能",
+      "iconPath":"images/tabBar/function.png",
+      "selectedIconPath":"images/tabBar/functionChoose.png"
+    },{
+      "pagePath":"pages/users/users",
+      "text":"用户",
+      "iconPath":"images/tabBar/users.png",
+      "selectedIconPath":"images/tabBar/usersChoose.png"
+    }]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00CED1",
+    "navigationBarTitleText": "垃圾回家记",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

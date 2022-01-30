@@ -1,0 +1,31 @@
+<!--pages/users/users.wxml-->
+<view class="user_info_box">
+  <view class="user_image">
+    <image class="user_background" src="{{userinfo.image}}"></image>
+    <view class="user_info">
+      <image class="user_icon" src="{{userinfo.image}}"></image>
+      <view class="user_name">
+        {{userinfo.name}}
+      </view>
+    </view>
+  </view>
+</view>
+<view class="user_content">
+  <view class="user_main">
+    <navigator class="user_func">
+      <view>
+        功能1
+      </view>
+    </navigator>
+    <navigator class="user_func">
+      <view>
+        功能2
+      </view>
+    </navigator>
+    <navigator  class="user_func">
+      <view>
+        功能3
+      </view>
+    </navigator>
+  </view>
+</view>
